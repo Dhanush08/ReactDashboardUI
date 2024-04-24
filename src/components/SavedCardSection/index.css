@@ -1,0 +1,8 @@
+.saved-cards-container{
+    margin-left: 78px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+}

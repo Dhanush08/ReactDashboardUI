@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+  --color-default:#004f83;
+  --color-second:#0067ac;
+  --color-white:#fff;
+  --color-body:#e4e9f7;
+  --color-light:#e0e0e0;
+}
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.slick-cards-container{
+    margin-left: 78px;
+    position: relative;
+    left: 30px;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
+    width: 1035px;
+    min-height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 35px 30px 35px;
+    border-radius: 10px;
+}
+
+
+.view-more-button{
+    color: white;
+    background-color: var(--color-default);
+    border: none;
+    text-align: center;
+    padding: 17px 12px;
+    font-size: 8px;
+    border-radius: 5px;
+    margin-bottom: 0;
+    align-self: center;
+    cursor: pointer;
+}
+
